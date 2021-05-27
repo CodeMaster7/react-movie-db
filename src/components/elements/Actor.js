@@ -21,4 +21,8 @@ const Actor = ({ actor }) => (
     </StyledActor>
 )
 
+Actor.propTypes = {
+    actor: PropTypes.object
+}
+
 export default Actor
